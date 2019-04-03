@@ -38,7 +38,7 @@ public class getapiurl {
 					while (sc.hasNext()) {
 						textread += sc.nextLine();
 					}
-					System.out.println("\n JSON data in string format");
+					System.out.println("\nJSON out file created !");
 					sc.close();
 				}
 			} catch (IOException e) {
